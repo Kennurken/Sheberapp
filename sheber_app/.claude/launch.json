@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sheber-web",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "C:\\src\\flutter\\bin\\flutter.bat", "run", "-d", "web-server", "--web-port", "8083"],
+      "port": 8083,
+      "autoPort": false
+    }
+  ]
+}

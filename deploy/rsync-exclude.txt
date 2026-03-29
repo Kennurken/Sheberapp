@@ -1,0 +1,6 @@
+config.local.php
+.claude/
+**/.git/
+storage/logs/*.log
+uploads/*.csv
+*.zip

@@ -1,0 +1,44 @@
+# Секреты и бэкапы конфига
+htdocs/config.local.php
+*.save
+config.local.php.save
+*.log
+htdocs/storage/logs/*
+!htdocs/storage/logs/.gitkeep
+
+# Пользовательские файлы на сервере — не в git
+htdocs/uploads/*
+!htdocs/uploads/.gitkeep
+
+# Дубликат PHP внутри каталога Flutter (legacy)
+sheber_app/htdocs/
+
+# Локальные настройки Claude
+sheber_app/.claude/settings.local.json
+
+# Flutter / IDE
+sheber_app/.dart_tool/
+sheber_app/build/
+sheber_app/.idea/
+sheber_app/android/.gradle/
+sheber_app/android/app/build/
+sheber_app/android/local.properties
+sheber_app/ios/Pods/
+sheber_app/**/ephemeral/
+sheber_app/**/*.symlinks/
+
+# Firebase (положите локально из консоли Firebase)
+sheber_app/android/app/google-services.json
+google-services.json
+
+# Ключи
+*.pem
+*.jks
+*.keystore
+key.properties
+
+.env
+.env.*
+
+.DS_Store
+Thumbs.db
